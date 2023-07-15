@@ -1,5 +1,5 @@
 class UserController < ApplicationController
   def index
-  render plain: 'Hello,world'
+  render template: 'users/index'
   end
 end
